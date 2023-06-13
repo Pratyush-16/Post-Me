@@ -5,7 +5,8 @@ export default function Header() {
   return (
     <div>
 
-        <h1>Socials</h1>
+        <div className='header-container'>
+        <h1 className='title'>Socials</h1>
 
         <div class="search-container">
            <input type="text" name="search" placeholder="Search..." class="search-input"/>
@@ -14,7 +15,8 @@ export default function Header() {
              </a>
         </div>
         
-        <hr/>
+       
+        </div>
       
     </div>
   )

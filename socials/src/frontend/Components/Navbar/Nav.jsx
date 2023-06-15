@@ -9,6 +9,11 @@ export default function Nav() {
       <Header />
       <nav className="navbar">
         <ul>
+
+        <li>
+            <NavLink to="/">Landing</NavLink> ||
+          </li>
+
           <li>
             <NavLink to="/">Home</NavLink> ||
           </li>

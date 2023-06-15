@@ -10,9 +10,9 @@ export default function Header() {
 
         <div class="search-container">
            <input type="text" name="search" placeholder="Search..." class="search-input"/>
-             <a href="#" class="search-btn">
+             <button class="search-btn" >Search</button>
                 <i class="fas fa-search"></i>      
-             </a>
+            
         </div>
         
        

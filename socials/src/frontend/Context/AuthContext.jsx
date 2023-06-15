@@ -9,6 +9,8 @@ const AuthContextProvider = ({children})=> {
     const [token,setToken] = useState(localStorageToken?.token)
     const[user,setUser] = useState(localStorageToken?.user)
 
+    console.log(token,"this is token")
+    
     return (
         <AuthContext.Provider  value={{token,setToken,user,setUser}}>
             {children}

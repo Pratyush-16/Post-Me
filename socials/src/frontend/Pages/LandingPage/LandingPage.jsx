@@ -4,7 +4,7 @@ export default function LandingPage() {
   return (
     <div>
 
-        
+        <h2>Welcome to Socials</h2>
       
     </div>
   )
